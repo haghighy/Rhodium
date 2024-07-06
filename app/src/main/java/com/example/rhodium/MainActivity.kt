@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonOpenMap.setOnClickListener {
-            startActivity(Intent(this, MapsActivity::class.java))
+            startActivity(Intent(this, MapActivity::class.java))
         }
 
         stopInsertionButton.setOnClickListener {
